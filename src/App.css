@@ -1,0 +1,181 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('../src/imagenes/nbafondo.jpg');
+  background-size: contain;
+}
+
+.navbar{
+  min-height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.nav-link{
+  font-size: 18px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;
+  margin-left: 5%;
+}
+
+.accion{
+  margin: 0 0 3% 10%;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Ruslan Display', cursive;
+}
+
+.table{
+  border: 1px solid #fff;
+  margin: 2em;
+}
+
+.text-input{
+  height: 30px;
+  width: 150px;
+  margin: 0 20px;
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #fff;
+  background-color: rgb(112 107 107 /.5);
+}
+
+.carousel{
+  height: 500px;
+  width: 350px;
+  padding: 20px 75px;
+  margin: 20px 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+.carousel-item{
+  height: 60%;
+  width: 100%;
+}
+
+.mvp{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 20px ;
+}
+
+.carousel-item p{
+  font-size: 1rem;
+}
+
+.highlights{
+  height: 100%;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 40px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.noticiero{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 30px;
+}
+
+.card{
+  height: 320px;
+  width: 60%;
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover{
+  cursor: pointer;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card-body{
+  text-align: center;
+  width: 100%;
+  max-height: 30%;
+  height: 20%;
+}
+
+.noticiero h1{
+  font-family: 'Ruslan Display', cursive;
+  font-size: 50px;
+}
+
+.footer{
+  height: 200px;
+  width: 100%;
+  background-color: #222;
+}
+
+.footer p,a{
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Titillium Web', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer hr{
+  height: 1px;
+  width: 90%;
+  color: #fff;
+  margin-top: 0;
+}
+.icons{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.icons:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #222;
+}
+
+@media (max-width: 490px){
+  .form-btn{
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .text-input{
+    width: 100%;
+  }
+
+  .highlights p{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 620px){
+  .table{
+    margin: 10px 0;
+    width: 90%;
+  }
+  .table-btn{
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+    margin: 5px 0;
+  }
+}

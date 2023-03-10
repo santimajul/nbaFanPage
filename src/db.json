@@ -1,0 +1,46 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Luka Doncic",
+      "ppp": 30.5,
+      "app": "9.9",
+      "rpp": "10.1"
+    },
+    {
+      "id": 2,
+      "name": "Joel Embiid",
+      "ppp": 33.5,
+      "app": 4,
+      "rpp": 11
+    },
+    {
+      "id": 3,
+      "name": "Ja Morant",
+      "ppp": "26.5",
+      "app": "8.2",
+      "rpp": 5
+    },
+    {
+      "id": 1677767804575,
+      "name": "Russel Wesbrook",
+      "ppp": "17.3",
+      "app": "9.1",
+      "rpp": "7.7"
+    },
+    {
+      "id": 1677927498765,
+      "name": "Desmon Bane",
+      "ppp": "21.2",
+      "app": "4.4",
+      "rpp": "5.3"
+    },
+    {
+      "id": 1678471768344,
+      "name": "LeBron James",
+      "ppp": "29.5",
+      "app": "8.8",
+      "rpp": "8.5"
+    }
+  ]
+}
